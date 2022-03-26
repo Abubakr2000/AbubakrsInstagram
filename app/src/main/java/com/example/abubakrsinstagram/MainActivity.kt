@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 else{
                     Log.i(TAG, "Successfully saved the post")
+                    Toast.makeText(this, "Successfully posted", Toast.LENGTH_SHORT).show()
                     // TODO: Resetting the EditText field to be empty
                     // TODO: Reset the IamgeView to be empty
                 }
